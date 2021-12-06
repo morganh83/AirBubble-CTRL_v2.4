@@ -12,8 +12,8 @@
 WiFiClient espClient;
 MQTTClient client;
 
-const char* mSub = "mqtt/publish/cmd"; 
-const char* mPub = "mqtt/subscribe/response";
+const char* mPub = "mqtt/publish/cmd"; // Publish to the topic your sign is subscribed to!
+const char* mSub = "mqtt/subscribe/response"; // Subscribe to the topic your sign is publishing to!
 const char* mqttURL = "mqtt.maker2maker.com";
 const char* userName = "your_username";
 const char* mqttPass = "your_password";
