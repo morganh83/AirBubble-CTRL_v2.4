@@ -1,0 +1,19 @@
+{
+    "authors": {
+        "name": "li lei",
+        "url": "https://os.mbed.com/users/floatlei/"
+    },
+    "build": {
+        "builder": "MbedLibBuilder"
+    },
+    "description": "sf",
+    "frameworks": "mbed",
+    "keywords": [],
+    "name": "eeprom",
+    "platforms": "*",
+    "repository": {
+        "type": "hg",
+        "url": "https://os.mbed.com/users/floatlei/code/eeprom/"
+    },
+    "version": "0.0.0+sha.b71fbcf5b8e4"
+}

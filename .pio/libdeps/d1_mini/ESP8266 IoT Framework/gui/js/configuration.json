@@ -1,0 +1,64 @@
+[
+    {
+        "name": "projectName",
+        "label": "Hostname",
+        "type": "char",
+        "length": 32,
+        "value": "AirBubble CTRL"
+    },
+    {
+        "name": "mqttURL",
+        "label": "MQTT URL",
+        "type": "char",
+        "length": 64,
+        "value": "mqtt.example.com"
+    },
+    {
+        "name": "mqttPort",
+        "label": "MQTT Port",
+        "type": "uint16_t",
+        "value": "1883"
+    },
+    {
+        "name": "mqttUserName",
+        "label": "Username",
+        "type": "char",
+        "length": 32,
+        "value": "Username"
+    },
+    {
+        "name": "mqttPass",
+        "label": "Password / Key",
+        "type": "char",
+        "length": 64,
+        "value": "*********"
+    },
+    {
+        "name": "mSub",
+        "label": "Subscribe Topic",
+        "type": "char",
+        "length": 128,
+        "value": "airbubble/sub"
+    },
+    {
+        "name": "mPub",
+        "label": "Publish Topic",
+        "type": "char",
+        "length": 128,
+        "value": "airbubble/pub"
+    },
+    {
+        "name": "devName",
+        "label": "Device Name",
+        "type": "char",
+        "length": 32,
+        "value": "unique_name"
+    },
+    {
+        "name": "language",        
+        "type": "char",
+        "length": 3,
+        "value": "en",
+        "hidden": true
+    }
+]
