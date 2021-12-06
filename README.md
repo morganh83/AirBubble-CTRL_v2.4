@@ -21,6 +21,11 @@ Now you should be able to make any changes necessary to the code and rebuild it.
 NOTE:
 If you plan on making changes to the web (captive portal) you will want to uncomment the "build_flags" line and the DREBUILD lines in the platformio.ini file.
 
+The controller and sign work together by subscribing and publishing to an MQTT server. Make sure to configure the correct parameters to pub/sub to the right topics:
+
+![image](https://user-images.githubusercontent.com/8813326/144925451-30d44b04-7bb1-411d-a258-e5a177f2c6cc.png)
+
+
 
 Known Bugs:
  - When connecting to the SSID, you do not get a DHCP IP
