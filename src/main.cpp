@@ -12,12 +12,12 @@
 WiFiClient espClient;
 MQTTClient client;
 
-const char* mSub = "hm/onAir/bindnerc/response";
-const char* mPub = "hm/onAir/bindnerc/cmd";
+const char* mSub = "mqtt/publish/cmd"; 
+const char* mPub = "mqtt/subscribe/response";
 const char* mqttURL = "mqtt.maker2maker.com";
-const char* userName = "bindnerc";
-const char* mqttPass = "FgEi2J6wn2LbjQXp";
-const char* devName = "bindnerc-onair-ctrl";
+const char* userName = "your_username";
+const char* mqttPass = "your_password";
+const char* devName = "unique_name";
 const uint16_t mqttPort = 1883;
 
 
